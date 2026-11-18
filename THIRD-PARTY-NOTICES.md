@@ -11,7 +11,7 @@ License: MIT
 What we changed: the avatar level mapping was made directional again
 (`frameIndex = isPeak ? level : LEVELS - level`), `Math.round` restored for the
 level, `prevBoundaryLocal` now treats the exact boundary as reached, the UI was
-rebuilt around `src/ui.template.js`, and the version was bumped to 1.3.0.
+rebuilt around `src/ui.template.js`, and the version was bumped to 1.3.1.
 
 ```
 MIT License

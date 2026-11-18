@@ -15,7 +15,7 @@ window.__ModuleLoader__.load({
     // 其余时段包括周末及法定节假日全天为空闲」。调休补班的周六/周日仍属"周末"，照样谷价，
     // 所以补班日根本不需要数据；真正需要年份表的只有"法定放假日"，那份表由鲸鱼挂件统一维护。
 
-    const VERSION = '1.3.0';
+    const VERSION = '1.3.1';
     const TZ_OFFSET_MS = 8 * 3600 * 1000;
     const PEAK_WINDOWS = [[9 * 60, 12 * 60], [14 * 60, 18 * 60]];
     const LEVELS = 30;
