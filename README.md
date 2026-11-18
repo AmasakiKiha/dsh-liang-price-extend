@@ -17,7 +17,7 @@
 
 ## 峰谷数据从哪来
 
-v1.2.0 起不再自带节假日表，改成**lind到 [dsh-whale-widge](https://github.com/moonlight328/dsh-whale-widget) 。**：
+v1.2.0 起不再自带节假日表，改成**lind到 [dsh-whale-widge](https://github.com/moonlight328/dsh-whale-widget) 。**
 
 ```
 GET /dsh-whale/balance.json
