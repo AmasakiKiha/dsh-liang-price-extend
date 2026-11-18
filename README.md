@@ -13,6 +13,8 @@
 | 能省多少 | 空闲时段 5 折（官方：空闲价为高峰价的一半） |
 
 时段规则取自 [dsh-whale-widget]小鲸鱼挂件，相比原版做了与小鲸鱼挂件的联动 [dsh-whale-widget]。推荐安装小鲸鱼。
+![whale](assets/whale.jpg)
+
 ## 峰谷数据从哪来
 
 v1.2.0 起不再自带节假日表，改成**优先向 [dsh-whale-widget](../dsh-whale-widget) 要**：
