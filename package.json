@@ -1,0 +1,53 @@
+{
+  "name": "dsh-liang-price-extend",
+  "version": "1.3.0",
+  "private": true,
+  "type": "module",
+  "description": "DeepSeek Harness 侧边栏插件：按官方峰谷时段显示当前高峰/空闲、距下次切换的倒计时与空闲 5 折提示；自动识别周末与法定节假日，纯本地计算。",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "THIRD-PARTY-NOTICES.md",
+    "icon.svg"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-conversation"
+      ]
+    }
+  },
+  "license": "MIT",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek",
+    "deepseek-harness",
+    "pricing",
+    "peak",
+    "off-peak",
+    "rheostat"
+  ],
+  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OWNER/dsh-liang-price-extend.git"
+  },
+  "homepage": "https://github.com/OWNER/dsh-liang-price-extend#readme",
+  "bugs": {
+    "url": "https://github.com/OWNER/dsh-liang-price-extend/issues"
+  }
+}
